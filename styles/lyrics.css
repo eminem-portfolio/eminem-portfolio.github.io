@@ -1,0 +1,64 @@
+/* using grid to display music as grid items */
+.grid-container{
+    display: grid;
+    grid-template-columns: auto auto auto;
+}
+.grid-item{
+    position: relative;
+    height: 350px;
+    background-size: cover;
+    background-position: center;
+    margin: 20px;
+}
+.overlay{
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    top: 0;
+    left: 0;
+    background: rgba(0, 0, 0, 0.8);
+    display: none;
+}
+.overlay h2{
+    position: absolute;
+    bottom: 0;
+    text-align: center;
+    border-bottom: 8px solid #bf1f24;
+}
+.grid-item:hover .overlay{
+    display: block;
+    cursor: pointer;
+}
+.lyrics{
+    width: 100%;
+    height: auto;
+    margin: 0;
+    padding-top: 20px;
+    padding-left: 40px;
+    background-color: rgba(0, 0, 0, 0.9);
+    position: absolute;
+    top: 0;
+    left: 0;
+    display: none;
+}
+.close{
+    display:inline-block;
+    background: #fff;
+    color: #000;
+    height: 30px;
+    width: 30px;
+    text-align: center;
+    border-radius: 50%;
+    font-weight: 900;
+    font-size: 20px;
+    position: fixed;
+    top: 10px;
+    right: 10px;
+}
+.close:hover{
+    cursor: pointer;
+    background: #999;
+}
+.music-text{
+    width: 80%;
+}

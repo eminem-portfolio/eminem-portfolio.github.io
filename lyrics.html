@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Lyrics</title>
+
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans|Open+Sans+Condensed:300" rel="stylesheet">
+
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+
+    <!-- Custom StyleSheet -->
+    <link rel="stylesheet" href="styles/main.css">
+    <link rel="stylesheet" href="styles/lyrics.css">
+    
+    <link rel="icon" href="images/favicon.png" sizes="32x32">
+
+</head>
+<body>
+    <!-- Header -->
+    <header>
+        <div class="container">
+        <nav>
+            <ul class="top-nav">
+                <li><a href="index.html">HOME</a></li>
+                <li><a href="shop.html">SHOP</a></li>
+                <li><a href="videos.html">VIDEOS</a></li>
+                <li><a href="events.html">EVENTS</a></li>
+                <li><a href="lyrics.html">LYRICS</a></li>
+            </ul>
+        </nav>
+        <div class="logo-div">
+            <span id="logo">E</span>
+        </div>
+        <nav>
+            <ul class="top-nav-right">
+                <li><a href="#">JOIN</a></li>
+            </ul>
+        </nav>
+        </div>
+    </header>
+
+    <section>
+        <div class="container">
+            <div class="grid-container">
+                <div class="grid-item" id="venom" style="background-image: url(images/venom-lyrics.jpg)">
+                    <div class="overlay">
+                        <h2>VENOM (MUSIC FROM THE MOTION PICTURE)</h2>
+                    </div>
+                </div>
+                <div class="grid-item" id="killshot" data-value="media/venom.mp3" style="background-image: url(images/killshot-lyrics.jpg)">
+                    <div class="overlay">
+                        <h2>KILLSHOT</h2>
+                    </div>
+                </div>
+                <div class="grid-item" id="kamikaze" style="background-image: url(images/kamikaze-lyrics.jpg)">
+                    <div class="overlay">
+                        <h2>KAMIKAZE</h2>
+                    </div>
+                </div>
+                <div class="grid-item" id="revival" style="background-image: url(images/revival-lyrics.jpg)">
+                    <div class="overlay">
+                        <h2>RIVER</h2>
+                    </div>
+                </div>
+                <div class="grid-item" id="recovery" style="background-image: url(images/recovery-lyrics.jpg)">
+                    <div class="overlay">
+                        <h2>NOT AFRAID</h2>
+                    </div>
+                </div>
+                <div class="grid-item" id="when" style="background-image: url(images/when-lyrics.jpg)">
+                    <div class="overlay">
+                        <h2>WHEN I"M GONE</h2>
+                    </div>
+                </div>
+                <div class="grid-item" id="encore" style="background-image: url(images/encore-lyrics.jpg)">
+                    <div class="overlay">
+                        <h2>MOCKINGBIRD</h2>
+                    </div>
+                </div>
+                <div class="grid-item" id="rapgod" style="background-image: url(images/rapgod-lyrics.jpg)">
+                    <div class="overlay">
+                        <h2>RAP GOD</h2>
+                    </div>
+                </div>
+                <div class="grid-item" id="lose-yourself" style="background-image: url(images/lose-yourself-lyrics.jpg)">
+                    <div class="overlay">
+                        <h2>LOSE YOURSELF</h2>
+                    </div>
+                </div>
+              </div>
+        </div>
+    </section>
+
+    <div class="lyrics">
+        <div class="lyrics-header">
+            <div class="close" onclick="lyricsClose() ">
+                X
+            </div>
+        </div>
+        <div class="lyrics-music">
+            <audio controls>
+                <source id="audio" src="" type="audio/mpeg">
+                Your browser does not support the audio element.
+            </audio>
+        </div>
+        <div class="lyrics-text">
+            <h3 class="music-title">
+
+            </h3>
+            <p class="music-text">
+
+            </p>
+        </div>
+    </div>
+
+    <!-- Footer -->
+    <footer>
+        <nav>
+            <ul class="footer-nav">
+                <li>Copyright Shady Records</li>
+                <li>Privacy Policy</li>
+                <li>Terms&Conditions</li>
+            </ul>
+        </nav>
+
+        <div class="about-me">
+            <nav>
+                <ul>
+                    <li>
+                            This is a CourseWork for the module "Introduction to Information and Web Technologies" by 00007624
+                    </li>
+                </ul>
+            </nav>
+        </div>
+    </footer>
+
+    <!-- Join Form -->
+    <div class="join overlay">
+        <div class="join-form">
+            <div id="close">
+                X
+            </div>
+            <h3>GET EMAIL UPDATES</h3>
+            <form action="#">
+                <input type="email" placeholder="EMAIL ADDRESS (REQUIRED)" required>
+                <input type="text" placeholder="FULL NAME (REQUIRED)" required>
+                <input type="button" value="SUBSCRIBE">
+            </form>
+        </div>
+    </div>
+
+    <script src="scripts/main.js"></script>
+    <script src="scripts/lyrics.js"></script>
+</body>
+</html>

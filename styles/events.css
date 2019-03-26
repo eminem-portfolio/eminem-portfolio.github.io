@@ -1,0 +1,35 @@
+.events{
+    background-image: url('../images/eminem-live.jpg');
+    background-size: cover;
+    background-position: left;
+    background-repeat: no-repeat;
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+}
+.calltoaction{
+    display: inline-block;
+    width: 50%;
+    padding: 100px;
+    padding-top: 0;
+}
+.events h1{
+    font-size: 48px;
+}
+.events button{
+    background: #fff;
+    color: #333;
+    font-weight: 800;
+    letter-spacing: 3px;
+    padding: 20px 60px;
+    border: 1px solid #fff;
+    transition: all 0.2s;
+}
+.events button:hover{
+    cursor: pointer;
+    background: #333;
+    color: #fff;
+    border: 1px solid #fff;
+    transition: all 0.2s;
+}
